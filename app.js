@@ -1,19 +1,9 @@
 const express = require('express');
 const { projects } = require('./data.json');
 console.log(projects);
-// const index = require('./routes/index');
-// const about = require('./routes/about');
 
 const app = express();
 app.set('view engine', 'pug');
-
-// app.use('/error', (req, res, next) => {
-//     console.log("Hello")
-//     const err = new Error()
-//     err.message = 'Custom 505'
-//     err.status = 500
-//     throw err
-// })
 
 // Route for static files
 app.use('/static', express.static('public'));
@@ -26,7 +16,7 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about');
 });
-// app
+// app id route with error handler
 app.get('/project/:id', (req, res, next) => {
     const id  = req.params.id;
     if (projects[id]) {
@@ -40,6 +30,7 @@ app.get('/project/:id', (req, res, next) => {
     
 });
 
+//- 404 error handler
 app.use((req, res, next) => {
     const err = new Error("This page does not exist")
     err.status = 404
@@ -47,7 +38,7 @@ app.use((req, res, next) => {
     next(err)
 })
 
-
+//- Global error handler
 app.use(( err, req, res, next ) => {
     res.locals.error = err;
     if (err.status === 404) {
