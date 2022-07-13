@@ -1,9 +1,13 @@
 const express = require('express');
+const bodyParser = require('body-parser')
 const { projects } = require('./data.json');
-console.log(projects);
+// console.log(projects);
 
 const app = express();
 app.set('view engine', 'pug');
+
+app.use(bodyParser.urlencoded({ extended: true }))
+app.use(bodyParser.json())
 
 // Route for static files
 app.use('/static', express.static('public'));
@@ -52,6 +56,6 @@ app.use(( err, req, res, next ) => {
 });
 
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('This application is running on localhost:3000')
 });
