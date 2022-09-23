@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/floodadosious34/Tech-Pro-9#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.17.2",
     "pug": "^3.0.2"
   }
