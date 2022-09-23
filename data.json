@@ -7,12 +7,7 @@
             "technologies": ["html", "css", "JavaScript"],
             "live_link": "https://floodadosious34.github.io/Techdegree-Project-4/",
             "github_link": "https://github.com/floodadosious34/Techdegree-Project-4.git",
-<<<<<<< HEAD
-            "image_urls": ["./images/random_landig.png", "./images/random1.png"]
-=======
             "image_urls": ["/static/images/random_landing.png", "/static/images/random1.png"]
->>>>>>> 7904f82466c25d8cc03363cc321daeabba053150
-
         },
         {
             "id": 1,
@@ -21,12 +16,7 @@
             "technologies": ["html", "css", "JavaScript"],
             "live_link": "https://floodadosious34.github.io/Techdegree-Project-5/",
             "github_link": "https://github.com/floodadosious34/Techdegree-Project-5.git",
-<<<<<<< HEAD
-            "image_urls": ["./images/word_landing.png", "./images/word1.png"]
-=======
             "image_urls": ["/static/images/word_landing.png", "/static/images/word1.png"]
->>>>>>> 7904f82466c25d8cc03363cc321daeabba053150
-            
         },
         {
             "id": 2,
@@ -35,12 +25,7 @@
             "technologies": ["html", "css", "JavaScript"],
             "live_link": "https://floodadosious34.github.io/Interactive-Form-Registration/",
             "github_link": "https://github.com/floodadosious34/Interactive-Form-Registration.git",
-<<<<<<< HEAD
-            "image_urls": ["./images/form_landning.png", "./images/form1.png"]
-=======
             "image_urls": ["/static/images/form_landing.png", "/static/images/form1.png"]
->>>>>>> 7904f82466c25d8cc03363cc321daeabba053150
-            
         },
         {
             "id": 3,
@@ -49,12 +34,7 @@
             "technologies": ["html", "css", "JavaScript"],
             "live_link": "https://floodadosious34.github.io/Techdegree-Project-8/",
             "github_link": "https://github.com/floodadosious34/Techdegree-Project-8.git",
-<<<<<<< HEAD
-            "image_urls": ["./images/employee_landing.png", "./images/employee1.png"]
-=======
-            "image_urls": ["/static/images/employee_landing.png", "/static/images/employee1.png"]
->>>>>>> 7904f82466c25d8cc03363cc321daeabba053150
-            
+            "image_urls": ["/static/images/employee_landing.png", "/static/images/employee1.png"] 
         }
     ]
 }
