@@ -35,6 +35,15 @@
             "live_link": "https://floodadosious34.github.io/Techdegree-Project-8/",
             "github_link": "https://github.com/floodadosious34/Techdegree-Project-8.git",
             "image_urls": ["/static/images/employee_landing.png", "/static/images/employee1.png"] 
+        },
+        {
+            "id": 4,
+            "project_name": "floodbeats.",
+            "description": "application that allows user to make music",
+            "technologies": ["html", "css", "JavaScript, express, webapi, react"],
+            "live_link": "https://floodbeats.onrender.com",
+            "github_link": "https://github.com/floodadosious34/Floodbeats..git",
+            "image_urls": ["/static/images/beats.png", "/static/images/beats.png"] 
         }
     ]
 }
