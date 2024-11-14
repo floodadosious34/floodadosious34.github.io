@@ -44,6 +44,15 @@
             "live_link": "https://floodbeats.onrender.com",
             "github_link": "https://github.com/floodadosious34/Floodbeats..git",
             "image_urls": ["/static/images/beats.png", "/static/images/beats.png"] 
+        },
+        {
+            "id": 5,
+            "project_name": "librarystore",
+            "description": "application that allows users to look for books in CRUD applicaton",
+            "technologies": ["html", "css", "JavaScript, express, sequelize, sql"],
+            "live_link": "https://crudapplication.up.railway.app/books",
+            "github_link": "https://github.com/floodadosious34/Techdegree-Project-10",
+            "image_urls": ["/static/images/libraryimage2.png", "/static/images/libraryimage1.png"] 
         }
     ]
 }
