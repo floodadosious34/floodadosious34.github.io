@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "random qoute generator",
+            "project_name": "random quote generator",
             "description": "application to generate random quotes.",
             "technologies": ["html", "css", "JavaScript"],
             "live_link": "https://floodadosious34.github.io/Techdegree-Project-4/",
